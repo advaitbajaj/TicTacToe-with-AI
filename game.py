@@ -146,9 +146,9 @@ def minimax(board, depth, isMaximizing):
         return bestScore
 
 board = {
-    1: 'X', 2: ' ', 3: 'O',
-    4: 'O', 5: 'O', 6: ' ',
-    7: 'X', 8: ' ', 9: 'X'
+    1: ' ', 2: ' ', 3: ' ',
+    4: ' ', 5: ' ', 6: ' ',
+    7: ' ', 8: ' ', 9: ' '
 }
 player = 'O'
 bot = 'X'
